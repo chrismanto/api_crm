@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nombre": "Christopher David Manzanares Tórrez",
+      "empresa": "Universidad Tecnológica La Salle - ULSA",
+      "email": "christopher.manzanares@ac.ulsa.edu.ni",
+      "telefono": "57941630",
+      "notas": "Primer registro",
+      "id": 1
+    },
+    {
+      "nombre": "Mayding ACTUALIZADO",
+      "empresa": "UNAN",
+      "email": "elizabeth@gmail.com",
+      "telefono": "54789632",
+      "notas": "A la mochilita le gusta salir",
+      "id": 10
+    }
+  ]
+}
