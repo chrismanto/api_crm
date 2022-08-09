@@ -14,7 +14,9 @@ const Test = () => {
     const navigate = useNavigate()
 
     return (
-        <p onClick={() => navigate(`/clientes`)}>Inicio</p>
+        <p
+            onClick={() => navigate(`/clientes`)}>ACCEDER A CLIENTES
+        </p>
     )
 }
 
