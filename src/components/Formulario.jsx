@@ -30,7 +30,7 @@ const Formulario = ({ cliente, cargando }) => {
         try {
             let respuesta
             if(cliente.id){
-                const url = `http://localhost:4000/clientes/${cliente.id}`
+                const url = `/clientes/${cliente.id}`
 
                 respuesta = await fetch(url, {
                     method: 'PUT',

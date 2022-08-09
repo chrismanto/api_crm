@@ -4,14 +4,13 @@ import Cliente from "../components/Cliente";
 import Spinner from "../components/Spinner.jsx";
 
 const Inicio = () =>{
-
     const [clientes, setClientes] = useState([])
     const [mostrarTabla, setMostrarTabla] = useState(false)
 
     useEffect( () => {
         const obtenerClientesAPI = async () => {
             try{
-                const url = 'http://localhost:4000/clientes'
+                const url = `${import.meta.env.VITE_API_URL}/clientes`
                 const respuesta = await fetch(url)
                 const data = await respuesta.json()
                 setClientes(data)
