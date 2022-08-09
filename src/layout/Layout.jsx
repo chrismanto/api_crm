@@ -18,6 +18,8 @@ const Layout = () => {
 
                     <Link className={`${activarLink('/clientes/nuevo')} text-2xl block mt-2 transition-all delay-120`}
                         to="/clientes/nuevo">Nuevo Cliente</Link>
+                    <Link className={`text-white hover:text-red-300 text-2xl block mt-2 transition-all delay-120`}
+                          to="/">Salir</Link>
                 </nav>
             </div>
 

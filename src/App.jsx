@@ -6,26 +6,13 @@ import Inicio from "./views/Inicio";
 import NuevoCliente from "./views/NuevoCliente";
 import EditarCliente from "./views/EditarCliente";
 import VerCliente from "./views/VerCliente";
-
-import { useNavigate } from "react-router-dom"
-
-
-const Test = () => {
-    const navigate = useNavigate()
-
-    return (
-        <p
-            onClick={() => navigate(`/clientes`)}>ACCEDER A CLIENTES
-        </p>
-    )
-}
-
+import LoginForm from "./views/LoginForm";
 
 function App() {
   return (
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Test />} />
+            <Route path="/" element={<LoginForm />} />
             <Route path="/clientes" element={<Layout />}>
                 <Route index element={<Inicio />} />
                 <Route path="nuevo" element={<NuevoCliente />} />

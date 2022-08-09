@@ -1,12 +1,20 @@
 {
   "clientes": [
     {
-      "nombre": "Christopher David Manzanares Tórrez",
+      "nombre": "Christopher ACTUALIZADO",
       "empresa": "Universidad Tecnológica La Salle - ULSA",
       "email": "christopher.manzanares@ac.ulsa.edu.ni",
       "telefono": "57941630",
       "notas": "Primer registro",
       "id": 1
+    },
+    {
+      "nombre": "David ACTUALIZADO",
+      "empresa": "ffff",
+      "email": "ffff@fffg.lu",
+      "telefono": "4",
+      "notas": "",
+      "id": 2
     }
   ]
 }
