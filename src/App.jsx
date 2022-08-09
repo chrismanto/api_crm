@@ -7,12 +7,23 @@ import NuevoCliente from "./views/NuevoCliente";
 import EditarCliente from "./views/EditarCliente";
 import VerCliente from "./views/VerCliente";
 
-function App() {
+import { useNavigate } from "react-router-dom"
 
+
+const Test = () => {
+    const navigate = useNavigate()
+
+    return (
+        <p onClick={() => navigate(`/clientes`)}>Inicio</p>
+    )
+}
+
+
+function App() {
   return (
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<p>Inicio</p>} />
+            <Route path="/" element={<Test />} />
             <Route path="/clientes" element={<Layout />}>
                 <Route index element={<Inicio />} />
                 <Route path="nuevo" element={<NuevoCliente />} />
